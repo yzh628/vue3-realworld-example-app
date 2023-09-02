@@ -5,6 +5,7 @@ import analyzer from 'rollup-plugin-analyzer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue3-realworld-example-app/',
   resolve: {
     alias: {
       src: fileURLToPath(new URL('./src', import.meta.url)),
@@ -14,4 +15,5 @@ export default defineConfig({
     vue(),
     analyzer({ summaryOnly: true }),
   ],
+  
 })
