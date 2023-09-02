@@ -1,5 +1,5 @@
 language: node_js
-os: ubuntu
+os: windows
 node_js:
   - 18.17.0
 cache: pnpm
