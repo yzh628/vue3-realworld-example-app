@@ -9,7 +9,7 @@ install:
 
 script:
   - yarn test
-  - yarn build
+  - yarn run build
 
 deploy:
   provider: pages
