@@ -2,14 +2,14 @@ language: node_js
 os: windows
 node_js:
   - 18.17.0
-cache: pnpm
+cache: yarn
 
 install:
-  - pnpm install
+  - yarn install
 
 script:
-  - pnpm test
-  - pnpm build
+  - yarn test
+  - yarn build
 
 deploy:
   provider: pages
